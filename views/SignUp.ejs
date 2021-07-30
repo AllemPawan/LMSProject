@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<link rel="stylesheet" href="./assets/SignUpStyles.css">
+	</head>
+	<body>
+		<nav>
+			<ul class="navBar">
+				<li class="navItems"><a class="navLinks" href="/home">Home</a></li>
+				<li class="navItems"><a class="navLinks" href="/SignUp">Sign-up</a></li>
+				<li class="navItems"><a class="navLinks" href="/Dashboard">Dashboard</a></li>
+				<li class="navItems"><a class="navLinks" href="/TaskManager">Task Manager</a></li>
+				<li class="navItems"><a class="navLinks" href="/CoursePage">Course Page</a></li>
+				<li class="navItems"><a class="navLinks" href="/logout">Logout</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="signUp">
+				<form class="signUpForm" method="POST" action="/SignUp">
+					<label>Enter First Name:</label></br>
+					<input type="text" name ="Fname" placeholder="First Name..."></br>
+					<label>Enter Last Name: </label></br>
+					<input type="text" name ="Lname" placeholder="Last Name..."></br>
+					<label>Enter your Email Address:</label></br>
+					<input type="email" name ="Email" placeholder="Email..."></br>
+					<label>Enter your Phone Number:</label></br>
+					<input type="number" name ="Phone" placeholder="Phone Number..."></br>
+					<label>Enter your Username:</label></br>
+					<input type="text" name ="Username" placeholder="Username..."></br>
+					<label>Enter your Password: </label></br>
+					<input type="password" name="Password" placeholder="Password..."></br>
+					<label>Upload your Profile Picture: </label></br>
+					<input type="file" id="ProPic" name="ProPic" accept="image/*"></br>
+					<input type="submit" value="Sign Up">
+				</form>
+			</div>
+		</main>
+	</body>
+</html>

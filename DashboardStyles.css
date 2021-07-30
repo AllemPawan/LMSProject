@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navBar{
+	display: block;
+	/*background-color: #000000;*/
+	text-align: right;
+}
+.navItems{
+	display: inline;
+	color: #fc0c0c;
+	padding: 1em 1em;
+}
+.navLinks{
+	color: #fc0c0c;
+	text-decoration: none;
+	font-size: 2.5em;
+}
+.UserDetails{
+	border: 1px solid #e5eaea;
+	border-radius: 5px;
+	text-align: center;
+	color: #0e5acc;
+	font-size: 1.2em;
+}

@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('HomepageBG.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}
+.homepage{
+	background-image: url('HomepageBG.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}
+.navBar{
+	display: block;
+	/*background-color: #000000;*/
+	text-align: right;
+}
+.navItems{
+	display: inline;
+	color: #fc0c0c;
+	padding: 1em 1em;
+}
+.navLinks{
+	color: #fc0c0c;
+	text-decoration: none;
+	font-size: 2.5em;
+}
+main{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.signUp{
+	background-color: #e5eaea;
+	text-align: center;
+	margin-top: 4em;
+	border: 1px solid #e5eaea;
+	border-radius: 5px;
+}
+input{
+	background-color: #aff9ff;
+	font-size: 1em;
+	color: #0029f7;
+	border:1px solid #0e5acc;
+	border-radius: 4px;
+	padding: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+label{
+	color: #0e5acc;
+	font-size: 1em;
+}
+
+
